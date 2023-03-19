@@ -1,18 +1,9 @@
 const Persons = (props) => {
   return (
-    <>
-      {props.checkFilter
-        ? props.filterPersons.map((person) => (
-            <p key={person.id}>
-              {person.name} {person.number}
-            </p>
-          ))
-        : props.persons.map((person) => (
-            <p key={person.id}>
-              {person.name} {person.number}
-            </p>
-          ))}
-    </>
+    <li>
+    {props.person.name} {props.person.number} 
+    <button onClick={props.onDelete}>Delete</button>
+    </li>
   );
 };
 
