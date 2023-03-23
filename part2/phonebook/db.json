@@ -2,23 +2,13 @@
   "persons": [
     {
       "name": "sansar",
-      "number": "9804699778",
+      "number": "9844161111",
       "id": 2
     },
     {
       "name": "kabita",
       "number": "9848414933",
       "id": 3
-    },
-    {
-      "name": "lex",
-      "number": "9804699778",
-      "id": 4
-    },
-    {
-      "name": "alex",
-      "number": "9804699778",
-      "id": 5
     }
   ]
 }
